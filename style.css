@@ -108,6 +108,30 @@ body{
    height: 90px;
    margin: 0.5rem;
 }
-hr{
-   color: #1A120B;
+.line{
+   height: 3px;
+   background-color: #1A120B;
+}
+.subB{
+   margin: 1.4rem;
+   display: flex;
+}
+.l{
+   height: 100px;
+   width: 3px;
+   background-color: #1A120B;
+   border-radius: 30px;
+}
+.place{
+   margin-left: 5px;
+}
+.place>p{
+   margin: 0;
+   font-size: 20px;
+   margin: 5px
+}
+.place>h1{
+   color: #3c2a21e9;
+   margin: 0;
+   margin: 5px;
 }
