@@ -15,7 +15,7 @@ body{
    background-color: #3c2a218d;
    margin: 1.5rem;
    padding: 1.5rem;
-   width: 90%;
+   width: 92%;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -23,23 +23,22 @@ body{
 }
 .name>h1{
    display: flex;
-   font-size: 100px;
+   font-size: 80px;
    color: #E5E5CB;
 }
 .name>p{
    display: flex;
-   font-size: 30px;
+   font-size: 25px;
    color: #D5CEA3;
 }
 .pic{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   height: 40rem;
    margin-left: 1.5rem;
 }
 .pic > img{
-   height: 600px;
+   height: 550px;
    border-radius: 23%;
 }
 
@@ -47,7 +46,7 @@ body{
    border-radius: 20px;
    background-color: #1A120B;
    padding: 1.5rem;
-   width: 90%;
+   width: 92%;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
@@ -55,15 +54,15 @@ body{
 }
 
 .block{
+   padding-top: 10px;
    border-radius: 30px;
    border: 2px black solid;
-   width: 400px;
-   height: 450px;
+   width: 350px;
+   height: 400px;
    background-color: #E5E5CB;
    margin: 10px;
    display: flex;
    flex-direction: column;
-   justify-content: space-evenly;
 }
 .block>h2{
    padding: 5px;
@@ -71,7 +70,7 @@ body{
    border-radius: 10px;
    border: 2px dashed #1A120B;
    text-align: center;
-   font-size: 65px;
+   font-size: 55px;
    margin: 0;
    margin: 10px;
 }
@@ -80,19 +79,20 @@ body{
    margin: 0;
    margin: 10px;
    text-align: center;
-   font-size: 27px;
+   font-size: 25px;
 }
 .Edu{
    background-color: #3c2a218d;
    margin: 1.5rem;
 }
 .block2{
+   margin: 0.5rem;
    display: flex;
    flex-direction: column;
    background-color: #D5CEA3;
    border-radius: 20px;
-   width: 600px;
-   height: 700px;
+   width: 550px;
+   height: 550px;
 }
 .head{
    display: flex;
@@ -102,22 +102,22 @@ body{
    margin: 0;
    margin-left: 15px;
    color: #531607;
-   font-size: 42px;
+   font-size: 30px;
 }
 .head>img{
-   height: 90px;
+   height: 60px;
    margin: 0.5rem;
 }
 .line{
-   height: 3px;
+   height: 2px;
    background-color: #1A120B;
 }
 .subB{
-   margin: 1.4rem;
+   margin: 1rem;
    display: flex;
 }
 .l{
-   height: 100px;
+   height: 80px;
    width: 3px;
    background-color: #1A120B;
    border-radius: 30px;
@@ -127,11 +127,71 @@ body{
 }
 .place>p{
    margin: 0;
-   font-size: 20px;
+   font-size: 15px;
    margin: 5px
 }
 .place>h1{
    color: #3c2a21e9;
+   font-size: 25px;
    margin: 0;
    margin: 5px;
+}
+
+.contact{
+   background-color: #E5E5CB;
+}
+.social{
+   border: 0px solid black;
+   border-radius: 20px;
+   background-color:#3c2a215d;
+   width: 550px;
+   height: 500px;
+}
+
+.social>h1{
+   color: #1A120B;
+   margin: 0;
+   margin: 15px;
+}
+.social>.line{
+   height: 1.5px;
+}
+.social>p{
+   color: #1A120B;
+   margin: 0;
+   margin: 5px;
+   font-size: 25px;
+}
+
+.links{
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+}
+.links>div{
+   display: flex;
+   align-items: center;
+   margin: 10px;
+   margin-left: 40px;
+   font-size: 20px;
+}
+.links>div>img{
+   height: 30px;
+   margin-right: 10px;
+}
+#insta{
+   height: 26px;
+}
+#face{
+   height: 32px;
+}
+#Lin{
+   height: 25px;
+}
+.Massage{
+   border: 0px solid black;
+   border-radius: 20px;
+   background-color:#3c2a215d;
+   width: 550px;
+   height: 500px;
 }
