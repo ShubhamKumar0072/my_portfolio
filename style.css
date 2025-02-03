@@ -20,6 +20,10 @@ body{
    justify-content: space-between;
    align-items: center;
    align-content: center;
+   flex-wrap: wrap;
+}
+.name{
+   width: 500px;
 }
 .name>h1{
    display: flex;
@@ -173,11 +177,14 @@ body{
    align-items: center;
    margin: 10px;
    margin-left: 40px;
-   font-size: 20px;
 }
 .links>div>img{
    height: 30px;
    margin-right: 10px;
+}
+.links>div>p{
+   margin: 0;
+   font-size: 20px;
 }
 #insta{
    height: 26px;
@@ -188,7 +195,8 @@ body{
 #Lin{
    height: 25px;
 }
-.Massage{
+.Message{
+   margin-top: 1.5rem;
    border: 0px solid black;
    border-radius: 20px;
    background-color:#3c2a215d;

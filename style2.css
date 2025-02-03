@@ -1,0 +1,88 @@
+@media(max-width : 450px){
+   .name{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .name>h1{
+      margin: 0;
+      font-size: 45px;
+      text-align: center;
+   }
+   .pic{
+      margin-left: 0;
+   }
+   .pic > img{
+      height: 350px;
+   }
+   .name>p{
+      font-size: 20px;
+      text-align: center;
+   }
+   .intro{
+      margin: 1rem;
+      padding: 0.5rem;
+      justify-content: center;
+   }
+
+   .skills{
+      padding: 0.5rem;
+   }
+   .block{
+      height: 300px;
+   }
+   .block>h2{
+      font-size: 40px;
+   }
+   .block>p{
+      font-size: 20px;
+   }
+
+   .links>div>p{
+      display: none;
+   }
+   .links{
+      flex-direction: row;
+      justify-content: space-around;
+   }
+   .links>div{
+      margin: 0;
+   }
+   .social{
+      width: 100%;
+      height: auto;
+      margin: 0.1rem;
+   }
+
+   .Message{
+      display: none;
+   }
+}
+
+@media(max-width : 1050px){
+   .pic>img{
+      height: 350px;
+   }
+   .pic{
+      margin-left: 0;
+   }
+   .name>p{
+      font-size: 20px;
+   }
+}
+
+@media(max-width : 950px){
+   .name>h1{
+      margin: 0;
+      font-size: 65px;
+   }
+   .pic>img{
+      height: 260px;
+   }
+   .pic{
+      margin-left: 0;
+   }
+   .name>p{
+      font-size: 20px;
+   }
+}
