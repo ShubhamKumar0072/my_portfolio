@@ -143,6 +143,7 @@ body{
 
 .contact{
    background-color: #E5E5CB;
+   margin-bottom: 1.5rem;
 }
 .social{
    border: 0px solid black;
@@ -196,7 +197,6 @@ body{
    height: 25px;
 }
 .Message{
-   margin-top: 1.5rem;
    border: 0px solid black;
    border-radius: 20px;
    background-color:#3c2a215d;

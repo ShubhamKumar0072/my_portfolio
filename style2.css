@@ -36,6 +36,11 @@
    }
    .block>p{
       font-size: 20px;
+      margin-bottom: 0.5rem;
+   }
+
+   .subB{
+      margin-bottom: 0.2rem;
    }
 
    .links>div>p{
@@ -44,6 +49,7 @@
    .links{
       flex-direction: row;
       justify-content: space-around;
+      margin-bottom: 0.5rem;
    }
    .links>div{
       margin: 0;
