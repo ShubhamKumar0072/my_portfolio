@@ -1,0 +1,94 @@
+
+html{
+   scroll-behavior:inherit;
+}
+
+@keyframes up{
+   100%{
+      transform: scale(1.02);
+      box-shadow:-5px 5px 10px #E5E5CB;
+   }
+}
+
+.block:hover{
+   animation: up 0.2s linear forwards;
+}
+
+.im1:hover{
+   transform: scale(1.01);
+   box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.377);
+}
+
+.ani1{
+   animation: appear 1s linear forwards;
+}
+
+.ani2{
+   animation: moveup 2s linear forwards;
+}
+
+.popup{
+   animation: popingup 5s linear forwards;
+   animation-timeline: view();
+   animation-range: 0% cover 30%;
+}
+.contact{
+   animation: popingup 5s linear forwards;
+   animation-timeline: view();
+   animation-range: 0% cover 30%;
+}
+
+@keyframes moveup{
+   0%{
+   opacity: 0;
+   transform: translateY(30px);
+   }
+   50%{
+      opacity: 0;
+   }
+   100%{
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+.head{
+   animation: appear 1s linear forwards;
+   animation-timeline: view();
+   animation-range: 0% cover 20%;
+}
+@keyframes appear{
+   0%{
+      opacity: 0;
+   }
+   100%{
+      opacity: 1;
+   }
+}
+
+@keyframes popingup{
+   from{
+      opacity: 0;
+      scale: 0.5;
+   }to{
+      opacity: 1;
+      scale: 1;
+   }
+}
+
+.place{
+   animation: ariveSide 1s ease-in forwards;
+   animation-timeline: view();
+   animation-range: 0% cover 40%;
+}
+
+@keyframes ariveSide{
+   from{
+      opacity: 0;
+      transform: translateX(-20px);
+   }to{
+      opacity: 1;
+      transform: translateX(0);
+   }
+}
+
+
