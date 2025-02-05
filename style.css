@@ -26,11 +26,13 @@ body{
    width: 500px;
 }
 .name>h1{
+   cursor: default;
    display: flex;
    font-size: 80px;
    color: #E5E5CB;
 }
 .name>p{
+   cursor: default;
    display: flex;
    font-size: 25px;
    color: #D5CEA3;
@@ -58,7 +60,8 @@ body{
 }
 
 .block{
-   
+
+   cursor: default;
    padding-top: 10px;
    border-radius: 30px;
    border: 2px black solid;
@@ -96,7 +99,7 @@ body{
    flex-direction: column;
    background-color: #D5CEA3;
    border-radius: 20px;
-   width: 550px;
+   width: 45%;
    height: 550px;
 }
 .head{
@@ -104,6 +107,7 @@ body{
    align-items: center;
 }
 .head > h1{
+   cursor: default;
    margin: 0;
    margin-left: 15px;
    color: #531607;
@@ -145,6 +149,7 @@ body{
 .contact{
    background-color: #E5E5CB;
    margin-bottom: 1.5rem;
+   gap: 1.5rem;
 }
 .social{
    border: 0px solid black;
@@ -189,13 +194,20 @@ body{
    font-size: 20px;
 }
 #insta{
+   margin-right: 10px;
    height: 26px;
 }
 #face{
+   margin-right: 10px;
    height: 32px;
 }
 #Lin{
+   margin-right: 10px;
    height: 25px;
+}
+#gethub{
+   margin-right: 10px;
+   height: 32px;
 }
 .Message{
    border: 0px solid black;

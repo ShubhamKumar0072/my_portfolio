@@ -1,4 +1,9 @@
 @media(max-width : 450px){
+   /* Image arriving animation */
+   .im1{
+      animation: moveup 2s linear forwards;
+   }
+
    .name{
       display: flex;
       flex-direction: column;
@@ -43,6 +48,12 @@
       margin-bottom: 0.2rem;
    }
 
+   .social>h1{
+      font-size: 27px;
+   }
+   .social>p{
+      font-size: 23px;
+   }
    .links>div>p{
       display: none;
    }
@@ -60,6 +71,19 @@
       margin: 0.1rem;
    }
 
+   .head{
+      justify-content: center;
+   }
+   .head>img{
+      height: 50px;
+   }
+   .head>h1{
+      margin-right: 40px;
+      font-size: 26px;
+   }
+   .place>h1{
+      font-size: 22px;
+   }
    .Message{
       display: none;
    }
@@ -90,5 +114,8 @@
    }
    .name>p{
       font-size: 20px;
+   }
+   .block2{
+      width: 386px;
    }
 }
